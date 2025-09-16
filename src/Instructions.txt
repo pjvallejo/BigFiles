@@ -1,0 +1,17 @@
+We have a big csv file that can't be loaded on memory, this file has the following five fields with its corresponding datatypes:
+1. id: int
+2. order_ id: int
+3. customer_id: int
+4. total: float
+5. date: datetime
+
+Create a js/ts program in src directory to populate the file sales.csv randomly with 1000000 records.  
+The criteria to generate date is as follows, ID is sequence from 1 by 1 until 1000000. Order_id is an integer, total is a random amount from 500 to 1800 with two decimals. 
+Date field contains dates from 2020 to 2025.
+
+Create a js/ts main program in src directory to create the file sales_report.csv with a summary of sales.csv. 
+This report has to group sales by year and month with number of orders, maximun and minimun amount of sales, sales average and standard deviation.
+
+Create a test program in test directory.
+
+Create a Readme.md version in spanish
