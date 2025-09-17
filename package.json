@@ -2,14 +2,14 @@
   "name": "bigfiles-csv-processor",
   "version": "1.0.0",
   "description": "Processing large CSV files with streaming for sales data analysis",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "ts-node",
     "generate-data": "ts-node src/generator.ts",
     "process-report": "ts-node src/main.ts",
     "test": "ts-node test/test.ts",
-    "start": "npm run build && node dist/main.js"
+    "start": "npm run build && node dist/src/index.js all"
   },
   "keywords": ["csv", "streaming", "big-data", "typescript"],
   "author": "",
